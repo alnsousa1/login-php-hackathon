@@ -3,7 +3,11 @@
 
     $localhost = "localhost";
     $usuario = "root";
+<<<<<<< HEAD
     $senha = "";
+=======
+    $senha = "root";
+>>>>>>> f1cb14808da6568128dbfe2bae3b3344c81b05d8
     $banco = "biblioteca";
 
     global $pdo; //global, para que a variavel $pdo possa ser usada em todo o sistema

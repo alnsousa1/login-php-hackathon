@@ -31,12 +31,21 @@
                 <form action="logar.php" method="POST">
                     <div class="card2 card border-0 px-4 py-5" style="margin: 140px 40px">
                         <div class="row px-3">
+<<<<<<< HEAD
                             <label class="mb-1"><h6 class="mb-0 text-sm">Registro de Aluno:</h6></label>
                             <input class="mb-4" type="number" name="ra" required placeholder="Digite seu RA">
                         </div>
                         <div class="row px-3">
                             <label class="mb-1"><h6 class="mb-0 text-sm">Senha:</h6></label>
                             <input type="password" name="senha" required placeholder="Digite sua senha">
+=======
+                            <label class="mb-1"><h6 class="mb-0 text-sm">Nome:</h6></label>
+                            <input class="mb-4" type="text" name="nome" required placeholder="Digite seu nome">
+                        </div>
+                        <div class="row px-3">
+                            <label class="mb-1"><h6 class="mb-0 text-sm">Registro do Aluno:</h6></label>
+                            <input type="password" name="ra" required placeholder="Digite seu RA">
+>>>>>>> f1cb14808da6568128dbfe2bae3b3344c81b05d8
                         </div>
                         <div class="row px-3 mb-4">
                             <a href="#" class="ml-auto mb-0 text-sm">Esqueceu a senha??</a>

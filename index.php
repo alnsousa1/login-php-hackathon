@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 global $pdo;
 
 if (isset($_POST['ra']) && !empty($_POST['ra']) && isset($_POST['senha']) && !empty($_POST['senha'])) {
@@ -102,3 +103,15 @@ if (isset($_POST['ra']) && !empty($_POST['ra']) && isset($_POST['senha']) && !em
 </body>
 
 </html>
+=======
+    if (isset($_POST['nome']) && !empty($_POST['nome']) && isset($_POST['ra']) && !empty($_POST['ra'])) {
+        $nome = addslashes($_POST['nome']);
+        $ra = addslashes($_POST['ra']);
+    }
+
+    header("Location: erro.php");exit;
+?>
+
+
+<h1>Você está logado!</h1>
+>>>>>>> f1cb14808da6568128dbfe2bae3b3344c81b05d8
