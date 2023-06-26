@@ -1,1 +1,4 @@
-<script>alert("Não faça isso, meu campeão!")</script>
+<script>alert("Usuário inválido!")</script>
+
+<script>location.href='login.php'</script>
+
